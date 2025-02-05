@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int num, rev=0 ans;
+    int num, rev=0 , ans;
     cout<<"Enter a number: ";
     cin>>num;
     ans==rev;
