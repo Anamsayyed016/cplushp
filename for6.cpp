@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
+    // febo
     int num;
     cout<<"Enter Your Name:";
     cin>>num;

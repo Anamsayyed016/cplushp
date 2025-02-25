@@ -7,7 +7,7 @@ int main()
             if(c<=r)
             {
                 cout<<"1";
-            }\
+            }
             else{
                 cout<<" ";
             }
