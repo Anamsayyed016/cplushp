@@ -2,18 +2,42 @@
 using namespace std;
 int main()
 {
-    int opeators ,choice;
-    cout<<"Enter your choice:";
-    cin>>choice;
+    int num1 ,num2;
+    char opeators;
+    cout<<"Enter First Number: ";
+    cin>>num1;
 
-    cout<<"Enter the opreators:";
+    cout<<"Enter Second Number: ";
+    cin>>num2;
+
+    cout<<"Enter + - * / % : ";
     cin>>opeators;
 
     
 
     switch(opeators){
-        case 1:
-        cout<<+<<"add"
+        case '+':
+        cout<<num1+num2;
+        break;
+
+        case '-':
+        cout<<num1-num2;
+        break;
+
+        case '*':
+        cout<<num1*num2;
+        break;
+
+        case '/':
+        cout<<num1/num2;
+        break;
+
+        case '%':
+        cout<<num1%num2;
+        break;
+
+        default:
+        cout<<"ENter valid number";
     }
     
 
