@@ -2,16 +2,14 @@
 using namespace std;
 
 int main() {
-    int N, sum = 0, i = 1;
+    // sum of the elements....//
+    int num, sum=0, i=1;
+    cout<<"Enter the numbers:";
+    cin>>num;
 
-    cout << "Enter a number: ";
-    cin >> N;
-
-    while (i <= N) {
-        sum += i;
+    while(i<=num){
+        sum=sum+i;
         i++;
     }
-
-    cout << "Sum = " << sum << endl;
-    return 0;
+    cout<<sum<<endl;
 }
