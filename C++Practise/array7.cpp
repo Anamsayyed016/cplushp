@@ -2,6 +2,8 @@
 using namespace std;
 int main()
 {
+
+    // sum and minus
     int arr[]={1,2,1,6,7};
 
     int a=arr[0]+arr[4];

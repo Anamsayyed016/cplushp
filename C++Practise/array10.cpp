@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
+    // asebding
     int arr[]={1,5,3,54,86,2,4};
 
     for(int i=0; i<7;i++){
